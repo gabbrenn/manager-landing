@@ -70,19 +70,15 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div
-            className="flex items-center gap-3 cursor-pointer transition-all duration-300"
+            className="flex items-center gap-3 cursor-pointer"
             onClick={() => scrollToSection('hero')}
           >
             <img
-              src={activeSection === 'personal' ? '/images/logo/sequecifyNew-01.png' : '/images/logo/logo_manager.png'}
-              alt={activeSection === 'personal' ? 'Sequencify Logo' : 'Manager Logo'}
-              className={`w-auto object-contain transition-all duration-300 ${
-                activeSection === 'personal' ? 'h-14' : 'h-10'
-              }`}
+              src="/images/logo/logo_manager.png"
+              alt="Manager Logo"
+              className="h-10 w-auto object-contain"
             />
-            <span className="text-2xl font-bold text-gray-900 transition-all duration-300">
-              {activeSection === 'personal' ? 'Sequencify' : 'Manaja'}
-            </span>
+            <span className="text-2xl font-bold text-gray-900">Manaja</span>
           </div>
 
           {/* Desktop Navigation */}
@@ -108,7 +104,7 @@ export default function Navbar() {
                   : 'text-gray-700 hover:text-gray-900'
               }`}
             >
-              Manager
+              Business
               {activeSection === 'business' && (
                 <span className="absolute -bottom-1 left-0 right-0 h-0.5 bg-blue-600 rounded-full"></span>
               )}
@@ -121,7 +117,7 @@ export default function Navbar() {
                   : 'text-gray-700 hover:text-gray-900'
               }`}
             >
-              Sequencify
+              Personal
               {activeSection === 'personal' && (
                 <span className="absolute -bottom-1 left-0 right-0 h-0.5 bg-blue-600 rounded-full"></span>
               )}

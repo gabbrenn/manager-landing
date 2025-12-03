@@ -7,7 +7,7 @@ export default function FAQ() {
   const faqs = [
     {
       question: 'How does Manaja automatically record sales?',
-      answer: 'When you receive a payment through Manaja, the system instantly creates a sales record, updates your inventory, and sends an invoice to your customer—all in one seamless transaction. No manual entry required.',
+      answer: 'When you receive a payment through Manaja, the system instantly creates a sales record, updates your inventory, and sends an invoice to your customer all in one seamless transaction. No manual entry required.',
     },
     {
       question: 'Do I need internet connection to use Manaja?',
@@ -15,7 +15,7 @@ export default function FAQ() {
     },
     {
       question: 'Can I use Manaja for both business and personal expenses?',
-      answer: 'Yes! We offer two products: Manager for business holders and Sequencify for clients. You can use both with the same account.',
+      answer: 'Yes! We offer two products: Manager for business holders and for personal use. You can use both with the same account.',
     },
     {
       question: 'How secure is my financial data?',
@@ -27,7 +27,7 @@ export default function FAQ() {
     },
     {
       question: 'Is there a free trial available?',
-      answer: 'Yes! We offer a 14-day free trial for Manager with full access to all features. No credit card required to start.',
+      answer: 'Yes! We offer a 14-day free trial for Manager for business holders with full access to all features. No credit card required to start.',
     },
     {
       question: 'Can I customize invoices and receipts?',

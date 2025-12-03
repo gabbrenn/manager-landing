@@ -8,19 +8,14 @@ export default function Hero() {
       <div className="relative max-w-7xl mx-auto px-6 lg:px-8 pt-32 pb-24 lg:pt-40 lg:pb-32">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-8 animate-fade-in">
-            <div className="inline-block">
-              <span className="text-sm font-medium text-gray-600 tracking-wider uppercase">
-                Manaja
-              </span>
-            </div>
 
             <h1 className="text-5xl lg:text-7xl font-bold text-gray-900 tracking-tight leading-[1.1]">
-              Sales. Payments.<br />
-              <span className="text-blue-600">Done.</span>
+              Stop writing,<br />
+              <span className="text-blue-600">Start managing.</span>
             </h1>
 
             <p className="text-xl lg:text-2xl text-gray-600 leading-relaxed max-w-xl font-light">
-              The first app that records your sales, updates your stock, and invoices your client—at the exact moment you get paid.
+              The first app that records your sales, updates your stock, and invoices your client at the exact moment you get paid.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
@@ -29,9 +24,6 @@ export default function Hero() {
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>
 
-              <button className="px-8 py-4 bg-white text-gray-900 rounded-xl font-medium border-2 border-gray-200 hover:border-gray-300 transition-all duration-300 hover:shadow-lg">
-                Get Sequencify
-              </button>
             </div>
 
             <div className="flex items-center gap-8 pt-8 text-sm text-gray-500">

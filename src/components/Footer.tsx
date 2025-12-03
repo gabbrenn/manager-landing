@@ -1,5 +1,3 @@
-import { Layers, Mail, MapPin } from 'lucide-react';
-
 export default function Footer() {
   return (
     <footer className="relative bg-gray-900 text-white py-16">
@@ -7,9 +5,11 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-12 mb-12">
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-purple-600 rounded-xl flex items-center justify-center">
-                <Layers className="w-6 h-6 text-white" />
-              </div>
+              <img
+              src="/images/logo/logo_manager.png"
+              alt="Manager Logo"
+              className="h-10 w-auto object-contain"
+            />
               <span className="text-2xl font-bold">Manaja</span>
             </div>
             <p className="text-gray-400 leading-relaxed max-w-md mb-6">
@@ -24,7 +24,6 @@ export default function Footer() {
             <h3 className="font-semibold text-lg mb-4">Products</h3>
             <ul className="space-y-3 text-gray-400">
               <li><a href="#" className="hover:text-white transition-colors">Manager</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Sequencify</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Pricing</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Features</a></li>
             </ul>
